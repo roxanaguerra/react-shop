@@ -11,7 +11,7 @@ const MyOrder = () => {
 	const sumTotal = () => {
 		const reducer = (accumalator, currentValue) => accumalator + currentValue.price;
 		const sum = state.cart.reduce(reducer, 0)
-		console.log(state.cart);
+		console.log("Lista:"+ state.cart);
 		return sum
 	};
 
